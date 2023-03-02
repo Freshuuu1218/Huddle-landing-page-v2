@@ -241,22 +241,22 @@ p{
 }
 /* patterns */
 #sectionTop1{
-    width: 100%;
+    width: 100vw;
     margin-bottom: -.25em;
 }
 #sectionBottom1{
-    width: 100%;
+    width: 100vw;
     margin-bottom:9em;
 }
 #sectionTop2{
-    width: 100%;
+    width: 100vw;
     margin-top: 8em;
 }
 #sectionBottom2{
-    width: 100%;
+    width: 100vw;
     margin-bottom: 4em;
 }
 #footer-pattern{
-    width: 100%;
+    width: 100vw;
     margin-bottom: -.25em;
 }
