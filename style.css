@@ -346,6 +346,15 @@ p{
         margin-bottom: 1em;
         margin-right: 10em;
     }
+    /* images display in mozillas firefox browsers */
+    @-moz-document url-prefix() {
+        .feature img{
+            width: 70%;
+        }
+        .feature:nth-child(4) img{
+            width: 50%;
+        }
+    }
     .feature:nth-child(4) img{
         margin-right: 0;
         margin-left: 10em;
