@@ -26,7 +26,9 @@ subscribe.addEventListener('click', ()=>{
 
         if(re.test(input.value)){
         error.style.display = 'none';
+        input.style.outline = '2px solid hsl(120, 80%, 39%)';
     }else{
         error.style.display = 'block';
+        input.style.outline = '2px solid hsla(0, 100%, 63%, .7)';
     }
 })
